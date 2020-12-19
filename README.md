@@ -5,7 +5,7 @@ Librería PaulinaCore, version 1.0.0
 
 Por Vicente Aguilera Pérez
 
-*Studying Systems Engineering at Instituto Tecnológico Superior de Uruapan*
+*Systems Engineering Student at Instituto Tecnológico Superior de Uruapan*
 
 - **email:** vicente_prez@hotmail.com
 
