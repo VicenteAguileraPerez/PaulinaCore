@@ -16,9 +16,20 @@ About the internal structure
 - **FirestoreFunctions** class its function is add, update, delete, get one and get all de documents of the database from Firestore.
 
 **PaulinaCore library another clases** 
-- **Something** interface is
-- **Options** enum is
-- **StatusActions** class is
+- **Something** interface its funcion is notify if the actions was success or return data when you add, get one or get all the information from the database
+- **Options** enum has three values ADD, DELETE, UPDATE. They are necessary to indicate what was the function executed.
+- **StatusActions** class has a method called statusConfirm(Options option,boolean isOk) needs two values options and isOk and if isOK 
+is true then return a message
+ADDING IS SUCCESS
+UPDATING IS SUCCESS
+DELETING IS SUCCESS
+
+it is false return
+ADDING IS NOT SUCCESS
+UPDATING IS NOT SUCCESS
+DELETING IS NOT SUCCESS
+
+The parameter option is a value of the *Options* class
 
 Version v1.0.0
 ---------------------
