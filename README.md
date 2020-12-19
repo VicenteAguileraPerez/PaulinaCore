@@ -48,7 +48,7 @@ You call this library adding these lines in the file POM.xml
      <dependency>
 	    <groupId>com.github.VicenteAguileraPerez</groupId>
 	    <artifactId>PaulinaCore</artifactId>
-	    <version>v1.0.1</version>
+	    <version>v2.0.0</version>
 	</dependency>
     
 </dependencies>
