@@ -12,13 +12,13 @@ By Vicente Aguilera Pérez
 About the internal structure
 ---------------------
 **PaulinaCore library has 2 main clases.** 
--**ConnectionFirebase** class its function is connect to a Firebase project with the json getting on Firebase Console.
--**FirestoreFunctions** class its function is add, update, delete, get one and get all de documents of the database from Firestore.
+- **ConnectionFirebase** class its function is connect to a Firebase project with the json getting on Firebase Console.
+- **FirestoreFunctions** class its function is add, update, delete, get one and get all de documents of the database from Firestore.
 
 **PaulinaCore library another clases** 
--**Something** interface is
--**Options** enum is
--**StatusActions** class is
+- **Something** interface is
+- **Options** enum is
+- **StatusActions** class is
 
 Version v1.0.0
 ---------------------
