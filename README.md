@@ -1,13 +1,24 @@
 # PaulinaCore
 PaulinaCore is a simple way to implement firebase in proyect Java desktop using JavaFX or Java Swing
 
-Library PaulinaCore, version 1.0.0
+PaulinaCore library, version 1.0.0
 
 By Vicente Aguilera Pérez
 
 *Systems Engineering Student at Instituto Tecnológico Superior de Uruapan*
 
 - **email:** vicente_prez@hotmail.com
+
+About the internal structure
+---------------------
+**PaulinaCore library has 2 main clases.** 
+-**ConnectionFirebase** class its function is connect to a Firebase project with the json getting on Firebase Console.
+-**FirestoreFunctions** class its function is add, update, delete, get one and get all de documents of the database from Firestore.
+
+**PaulinaCore library another clases** 
+-**Something** interface is
+-**Options** enum is
+-**StatusActions** class is
 
 Version v1.0.0
 ---------------------
