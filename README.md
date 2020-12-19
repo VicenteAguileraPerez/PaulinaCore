@@ -2,17 +2,19 @@
 PaulinaCore is a simple way to implement firebase in proyect Java desktop using JavaFX or Java Swing
 
 
-Versión v1.0.0
+Version v1.0.0
 ---------------------
-Se ha agregado la compatibilidad con Maven. Ahora se puede llamar a la librería PanamaHitek_Arduino agregando las sigueintes líneas al archivo POM:
+If you want to implement this library in your project, you need to create a maven proyect in your IDE:
+You call this library adding these lines in the file POM.xml
+
      
 <dependencies>
 
-        <dependency>
-            <groupId>com.github.PanamaHitek</groupId>
-            <artifactId>PanamaHitek_Arduino</artifactId>
-            <version>2.7.2</version>
-        </dependency>
+     <dependency>
+	    <groupId>com.github.VicenteAguileraPerez</groupId>
+	    <artifactId>PaulinaCore</artifactId>
+	    <version>v1.0.0</version>
+	</dependency>
     
 </dependencies>
 
