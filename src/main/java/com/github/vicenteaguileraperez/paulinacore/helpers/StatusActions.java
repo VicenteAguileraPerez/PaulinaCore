@@ -34,10 +34,10 @@ public class StatusActions
                 message =  isOk?"ADDING IS SUCCESS":"ADDING IS NOT SUCCESS";
                 break;
             case UPDATE:
-                message = isOk?"UPDATING IS SUCCESS":"ADDING IS NOT SUCCESS";
+                message = isOk?"UPDATING IS SUCCESS":"UPDATING IS NOT SUCCESS";
                 break;
             case DELETE:
-                message = isOk?"DELETING IS SUCCESS":"ADDING IS NOT SUCCESS";
+                message = isOk?"DELETING IS SUCCESS":"DELETING IS NOT SUCCESS";
                 break;
         }
         return message;
