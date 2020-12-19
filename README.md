@@ -29,8 +29,9 @@ About the internal structure
 	ADDING IS NOT SUCCESS
 	UPDATING IS NOT SUCCESS
 	DELETING IS NOT SUCCESS
+	
+	The parameter option is a value of the *Options* class
 
-The parameter option is a value of the *Options* class
 Version v1.0.0
 ---------------------
 It has a bug in the **StatusActions** shows wrong messages in the else of updating and deleting
