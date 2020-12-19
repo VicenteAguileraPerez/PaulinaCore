@@ -1,7 +1,7 @@
 # PaulinaCore
 PaulinaCore is a simple way to implement firebase in proyect Java desktop using JavaFX or Java Swing
 
-PaulinaCore library, version 1.0.1
+PaulinaCore library, version 2.0.0
 
 By Vicente Aguilera Pérez
 
@@ -35,7 +35,7 @@ Version v1.0.0
 ---------------------
 It has a bug in the **StatusActions** shows wrong messages in the else of updating and deleting
 
-Version v1.0.1
+Version v2.0.0
 ---------------------
 This version has corrected the errors of version 1.0.0
 If you want to implement this library in your project, you need to create a maven proyect in your IDE:
