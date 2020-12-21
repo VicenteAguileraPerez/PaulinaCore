@@ -1,7 +1,6 @@
 # PaulinaCore
 PaulinaCore is a simple way to implement firebase in proyect's desktop Java using JavaFX or Java Swing
 
-From now on, all the new updates will be published in [jitpack.io](https://jitpack.io/).
 
 PaulinaCore library, version 2.0.0
 
