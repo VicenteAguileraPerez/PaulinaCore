@@ -1,7 +1,7 @@
 # PaulinaCore
 PaulinaCore is a simple way to implement firebase in proyect's desktop Java using JavaFX or Java Swing
 
-PaulinaCore library, version 2.0.1   [![Release](https://jitpack.io/v/VicenteAguileraPerez/PaulinaCore.svg)](https://jitpack.io/#VicenteAguileraPerez/PaulinaCore)
+PaulinaCore library, version 2.1.0   [![Release](https://jitpack.io/v/VicenteAguileraPerez/PaulinaCore.svg)](https://jitpack.io/#VicenteAguileraPerez/PaulinaCore)
 
 By Vicente Aguilera Pérez
 
@@ -38,9 +38,9 @@ It has a bug in the **StatusActions** shows wrong messages in the else of updati
 
 Version v2.0.0
 ---------------------
-It has a bug in the **ConnectionFirebase** when you create the json
+It has a bug in the **ConnectionFirebase** when you create the json and it doesn't have java doc avaliable.
 
-Version v2.0.1
+Version v2.1.0
 ---------------------
 This version has corrected the errors of version 2.0.0
 If you want to implement this library in your project, you need to create a maven proyect in your IDE:
@@ -51,7 +51,7 @@ You call this library adding these lin
      <dependency>
 	    <groupId>com.github.VicenteAguileraPerez</groupId>
 	    <artifactId>PaulinaCore</artifactId>
-	    <version>v2.0.0</version>
+	    <version>v2.1.0</version>
 	</dependency>
     
 </dependencies>
