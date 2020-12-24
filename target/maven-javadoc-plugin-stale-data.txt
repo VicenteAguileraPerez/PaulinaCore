@@ -1,0 +1,19 @@
+cmd.exe
+/X
+/C
+""C:\Program Files\Java\jdk1.8.0_211\jre\..\bin\javadoc.exe" @options @argfile"
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\allclasses-frame.html = 1608842973828
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\allclasses-noframe.html = 1608842973841
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\argfile = 1608842970153
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\constant-values.html = 1608842973407
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\deprecated-list.html = 1608842973792
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\help-doc.html = 1608842973928
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\index-all.html = 1608842973756
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\index.html = 1608842973870
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\options = 1608842970151
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\overview-frame.html = 1608842973041
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\overview-summary.html = 1608842973896
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\overview-tree.html = 1608842973711
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\package-list = 1608842973033
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\script.js = 1608842973968
+C:\Users\vicen\Desktop\PaulinaCore\target\apidocs\stylesheet.css = 1608842973956

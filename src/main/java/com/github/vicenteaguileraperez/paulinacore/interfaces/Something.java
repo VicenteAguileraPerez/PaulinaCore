@@ -32,7 +32,7 @@ public interface Something
         
     }
     /**
-     * <code>getAll(ArrayList< Object > values)</code> is a default method where you can receive all the documents stored 
+     * <code>getAll(ArrayList Object  values)</code> is a default method where you can receive all the documents stored 
      * in the database in Firebase
      * @param values is the collection of information getting
      */

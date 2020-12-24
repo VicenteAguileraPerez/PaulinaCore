@@ -27,8 +27,8 @@ public class ConnectionFirebase
      * Creates a new <code>File</code> instance from a called jsonName with 
      * data (JsonData)
      *
-     * @param jsonName
-     * @param jsonData
+     * @param jsonName Name of the file json getting in firebase 
+     * @param jsonData Information of the file json getting in firebase 
      * @return <code>file</code> if and only if the file denoted is created
      *      in the path where the jar is .<code>null</code> otherwise
      */
