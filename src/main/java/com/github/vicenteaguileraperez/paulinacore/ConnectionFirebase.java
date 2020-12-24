@@ -23,38 +23,39 @@ import java.io.IOException;
 
 public class ConnectionFirebase
 {
-      /**
-     * Creates a default <code>FirebaseApp</code> instance with the information 
-     * of the jsonName (don't put the extension only the name of the file) 
-     * and  the url of the database nameProject
+    /**
+     * Creates a new <code>File</code> instance from a called jsonName with 
+     * data (JsonData)
      *
-     * 
-     * @param jsonName Name of the file json getting in firebase 
-     * @param nameProject Name of the project to access to the Realtime database
+     * @param jsonName
+     * @param jsonData
+     * @return <code>file</code> if and only if the file denoted is created
+     *      in the path where the jar is .<code>null</code> otherwise
      */
-    public static void iniciarFirebase(String jsonName, String nameProject)
+    public static File createJson(String jsonName,String jsonData)
     {
-        FileInputStream serviceAccount = null;
-        try {
-
-            serviceAccount = new FileInputStream(jsonName+".json");
-
-            FirebaseOptions options = new FirebaseOptions.Builder()
-                    .setCredentials(GoogleCredentials.fromStream(serviceAccount))
-                    .setDatabaseUrl("https://"+nameProject+".firebaseio.com")
-                    .setStorageBucket(nameProject+".appspot.com")
-                    .build();
-
-            FirebaseApp.initializeApp(options);
-           
-        }
-        catch (FileNotFoundException e) {
-
-            System.out.println(e.getMessage());
-
-        } catch (IOException ex) {
-
-        }
+        File file= new File(System.getProperty("user.dir"), jsonName);
+        try
+         {
+          
+            if(!file.exists()){
+                file.createNewFile();
+                FileWriter fw = new FileWriter(file.getAbsoluteFile());
+                BufferedWriter bw = new BufferedWriter(fw);
+                bw.write(jsonData);
+                bw.close();
+                return file;
+            }
+            else return file;
+         }
+         catch(IOException e)
+         {
+             return file;
+         }
+         catch(Exception e)
+         {
+             return file;
+         }
     }
     /**
      * Creates a default <code>FirebaseApp</code> instance with the information 
