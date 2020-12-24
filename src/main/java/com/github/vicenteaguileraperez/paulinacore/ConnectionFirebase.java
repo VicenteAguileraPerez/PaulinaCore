@@ -72,7 +72,7 @@ public class ConnectionFirebase
         try {
 
             serviceAccount = new FileInputStream(jsonName+".json");
-
+            
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(serviceAccount))
                     .setDatabaseUrl("https://"+nameProject+".firebaseio.com")

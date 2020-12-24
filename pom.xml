@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.vicenteaguileraperez</groupId>
     <artifactId>PaulinaCore</artifactId>
-    <version>v2.0.1</version>
+    <version>v2.1.0</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -58,7 +58,7 @@
         <dependency>
             <groupId>com.google.firebase</groupId>
             <artifactId>firebase-admin</artifactId>
-            <version>7.0.1</version>
+            <version>7.1.0</version>
         </dependency>
     </dependencies>
 </project>
