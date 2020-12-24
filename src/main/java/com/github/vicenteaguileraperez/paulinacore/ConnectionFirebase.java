@@ -23,39 +23,38 @@ import java.io.IOException;
 
 public class ConnectionFirebase
 {
-    /**
-     * Creates a new <code>File</code> instance from a called jsonName with 
-     * data (JsonData)
+      /**
+     * Creates a default <code>FirebaseApp</code> instance with the information 
+     * of the jsonName (don't put the extension only the name of the file) 
+     * and  the url of the database nameProject
      *
-     * @param jsonName
-     * @param jsonData
-     * @return <code>true</code> if and only if the file denoted is created
-     *      in the path where the jar is .<code>false</code> otherwise
+     * 
+     * @param jsonName Name of the file json getting in firebase 
+     * @param nameProject Name of the project to access to the Realtime database
      */
-    public static boolean createJson(String jsonName,String jsonData)
+    public static void iniciarFirebase(String jsonName, String nameProject)
     {
-        File file= new File(System.getProperty("user.dir"), "firestore-java-tablescoder-firebase-adminsdk-jq2wf-53f2e4b4b8.json");
-        try
-         {
-          
-            if(!file.exists()){
-                file.createNewFile();
-                FileWriter fw = new FileWriter(file.getAbsoluteFile());
-                BufferedWriter bw = new BufferedWriter(fw);
-                bw.write(jsonData);
-                bw.close();
-                return true;
-            }
-            else return file.exists();
-         }
-         catch(IOException e)
-         {
-             return false;
-         }
-         catch(Exception e)
-         {
-             return false;
-         }
+        FileInputStream serviceAccount = null;
+        try {
+
+            serviceAccount = new FileInputStream(jsonName+".json");
+
+            FirebaseOptions options = new FirebaseOptions.Builder()
+                    .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+                    .setDatabaseUrl("https://"+nameProject+".firebaseio.com")
+                    .setStorageBucket(nameProject+".appspot.com")
+                    .build();
+
+            FirebaseApp.initializeApp(options);
+           
+        }
+        catch (FileNotFoundException e) {
+
+            System.out.println(e.getMessage());
+
+        } catch (IOException ex) {
+
+        }
     }
     /**
      * Creates a default <code>FirebaseApp</code> instance with the information 
