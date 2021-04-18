@@ -44,7 +44,7 @@ Version v2.1.0
 ---------------------
 This version has corrected the errors of version 2..0
 
-Version v2.1.0
+Version v2.1.1
 ---------------------
 This version has corrected the errors of version 2.1.0 just add the dependencies to the jar
 If you want to implement this library in your project, you need to create a maven proyect in your IDE:
@@ -55,7 +55,7 @@ You call this library adding these lines
      <dependency>
 	    <groupId>com.github.VicenteAguileraPerez</groupId>
 	    <artifactId>PaulinaCore</artifactId>
-	    <version>v2.1.0</version>
+	    <version>v2.1.1</version>
 	</dependency>
     
 </dependencies>
