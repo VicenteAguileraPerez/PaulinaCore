@@ -123,6 +123,7 @@ public class ConnectionFirebase
 
         }
     }
+    
     /**
      * 
      * @return Returns the Firestore instance associated with the default Firebase app.
