@@ -42,7 +42,7 @@ It has a bug in the **ConnectionFirebase** when you create the json and it doesn
 
 Version v2.1.0
 ---------------------
-This version has corrected the errors of version 2..0
+This version has corrected the errors of version 2.0.0
 
 Version v2.1.1
 ---------------------
